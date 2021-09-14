@@ -27,6 +27,7 @@ body {
 }
 
 .text-translatefrom {
+  background-color: black;
   color: white;
   border: 1px solid rgb(54, 49, 49);
   border-radius: 5px;
@@ -37,7 +38,8 @@ body {
 }
 
 .translated-text {
-  background-color: white;
+  background-color: black;
+  color
   border: 1px solid rgb(54, 49, 49);
   border-radius: 5px;
   height: 15vh;
@@ -53,7 +55,7 @@ body {
   cursor: pointer;
   padding: 1rem;
   width: 30%;
-  font-size: larger;
+  font-size: medium;
   margin-bottom: 1rem;
   border: 0;
   border-radius: 5px;
@@ -65,7 +67,7 @@ body {
   cursor: pointer;
   padding: 1rem;
   width: 30%;
-  font-size: larger;
+  font-size: medium;
   margin-bottom: 1rem;
   border: 0;
   border-radius: 5px;
@@ -86,6 +88,6 @@ footer {
 }
 
 #footer-div {
-  font-size: x-large;
+  font-size: medium;
   font-weight: bold;
 }
