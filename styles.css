@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+:root {
+  --primary-color: #1F2937;
+  --seconday-color: #1D4ED8;
+}
+
+body {
+
+  color: white;
+  background-color: #6B7280;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.heading {
+  text-align: center;
+  margin: 0;
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-translatefrom {
+  color: white;
+  border: 1px solid rgb(54, 49, 49);
+  border-radius: 5px;
+  height: 15vh;
+  min-width: 60vw;
+  margin: 2rem 0rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.translated-text {
+  background-color: white;
+  border: 1px solid rgb(54, 49, 49);
+  border-radius: 5px;
+  height: 15vh;
+  min-width: 60vw;
+  margin: 2rem 0rem;
+  font-family: 'Roboto Mono', monospace;
+}
+/* buttons */
+
+#btn-translate {
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  width: 30%;
+  font-size: larger;
+  margin-bottom: 1rem;
+  border: 0;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+}
+#btn-reset {
+  background-color: var(--seconday-color);
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  width: 30%;
+  font-size: larger;
+  margin-bottom: 1rem;
+  border: 0;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+}
+.mid-para{
+  color: white;
+}
+footer {
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+#footer-para {
+  max-width: 60vw;
+  margin: auto;
+  padding: 1rem;
+}
+
+#footer-div {
+  font-size: x-large;
+  font-weight: bold;
+}
