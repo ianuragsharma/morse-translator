@@ -1,2 +1,2 @@
 # morse-translator
- Translates English to Morse code
+This app uses funtranslations api to translates English to Morse code.
